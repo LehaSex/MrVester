@@ -1,11 +1,15 @@
 {
+  "resources/img/alien-monster.svg": {
+    "file": "assets/alien-monster.1163caf5.svg",
+    "src": "resources/img/alien-monster.svg"
+  },
   "resources/js/app.js": {
     "file": "assets/app.7cafe3db.js",
     "src": "resources/js/app.js",
     "isEntry": true
   },
   "resources/css/app.css": {
-    "file": "assets/app.589d04c4.css",
+    "file": "assets/app.3ae94aa5.css",
     "src": "resources/css/app.css",
     "isEntry": true
   }
