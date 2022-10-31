@@ -47,6 +47,7 @@
                     useBrowserHistory: false,
                     rememberLastDir: false,
                     cssAutoLoad: ['themes/Material/css/theme.css'],
+                    resizable: false,
                     url : '<?= route("elfinder.connector") ?>',  // connector URL
                     soundPath: '<?= asset($dir.'/sounds') ?>'
                 });
