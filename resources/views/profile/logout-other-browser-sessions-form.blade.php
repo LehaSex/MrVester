@@ -52,9 +52,9 @@
         @endif
 
         <div class="flex items-center mt-5">
-            <x-jet-button wire:click="confirmLogout" wire:loading.attr="disabled">
+            <x-button wire:click="confirmLogout" wire:loading.attr="disabled">
                 {{ __('Выйти Из Других Сессий Браузера') }}
-            </x-jet-button>
+            </x-button>
 
             <x-jet-action-message class="ml-3" on="loggedOut">
                 {{ __('Сделано.') }}
@@ -86,11 +86,11 @@
                     {{ __('Отменить') }}
                 </x-jet-secondary-button>
 
-                <x-jet-button class="ml-3"
+                <x-button class="ml-3"
                             wire:click="logoutOtherBrowserSessions"
                             wire:loading.attr="disabled">
                     {{ __('Выйти Из Других Сессий Браузера') }}
-                </x-jet-button>
+                </x-button>
             </x-slot>
         </x-jet-dialog-modal>
     </x-slot>

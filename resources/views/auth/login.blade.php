@@ -26,9 +26,9 @@
 
             <div class="flex items-center grow mt-4">
 
-                <x-jet-button class="flex-auto w-64 rounded-lg flex items-center justify-center h-10 uppercase">
+                <x-button class="flex-auto w-64 rounded-lg flex items-center justify-center h-10 uppercase">
                     {{ __('Войти') }}
-                </x-jet-button>
+                </x-button>
             </div>
         </form>
         <x-jet-validation-errors class="mb-4" />

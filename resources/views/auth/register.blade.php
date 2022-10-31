@@ -51,9 +51,9 @@
                     {{ __('Уже зарегистрирован?') }}
                 </a>
 
-                <x-jet-button class="ml-4 uppercase">
+                <x-button class="ml-4 uppercase">
                     {{ __('Регистрация') }}
-                </x-jet-button>
+                </x-button>
             </div>
         </form>
     </x-authentication-card>
