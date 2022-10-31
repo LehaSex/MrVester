@@ -12,6 +12,8 @@ use App\View\Components\FormSection;
 use App\View\Components\NavLink;
 use App\View\Components\Dropdown;
 use App\View\Components\DropdownLink;
+use App\View\Components\AuthCardLogo;
+use App\View\Components\ApplicationMark;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -45,5 +47,7 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('nav-link', NavLink::class);
         Blade::component('dropdown', Dropdown::class);
         Blade::component('dropdown-link', DropdownLink::class);
+        Blade::component('authentication-card-logo', AuthCardLogo::class);
+        Blade::component('application-mark', ApplicationMark::class);
     }
 }
