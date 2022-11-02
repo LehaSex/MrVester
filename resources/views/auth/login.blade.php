@@ -9,17 +9,17 @@
 
             <div>
                 <x-label for="email" value="{{ __('Почта') }}" />
-                <x-jet-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
+                <x-input id="email" class="block mt-1 w-full" type="email" placeholder="{{ __('Введите почту') }}" name="email" :value="old('email')" required autofocus />
             </div>
 
             <div class="mt-4">
                 <x-label for="password" value="{{ __('Пароль') }}" />
-                <x-jet-input id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password" />
+                <x-input id="password" class="block mt-1 w-full" type="password" placeholder="{{ __('Введите пароль') }}" name="password" required autocomplete="current-password" />
             </div>
 
             <div class="block mt-4">
                 <label for="remember_me" class="flex items-center">
-                    <x-jet-checkbox id="remember_me" name="remember" />
+                    <x-jet-checkbox id="remember_me" name="remember" class="bg-gray-700 border-gray-600"/>
                     <span class="ml-2 text-sm text-slate-50">{{ __('Запомнить меня') }}</span>
                 </label>
             </div>

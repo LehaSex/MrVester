@@ -16,6 +16,7 @@ use App\View\Components\AuthCardLogo;
 use App\View\Components\ApplicationMark;
 use App\View\Components\Button;
 use App\View\Components\ValidationErrors;
+use App\View\Components\Input;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -53,5 +54,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('application-mark', ApplicationMark::class);
         Blade::component('button', Button::class);
         Blade::component('validation-errors', ValidationErrors::class);
+        Blade::component('input', Input::class);
     }
 }
