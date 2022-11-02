@@ -17,6 +17,7 @@ use App\View\Components\ApplicationMark;
 use App\View\Components\Button;
 use App\View\Components\ValidationErrors;
 use App\View\Components\Input;
+use App\View\Components\SectionBorder;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -55,5 +56,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('button', Button::class);
         Blade::component('validation-errors', ValidationErrors::class);
         Blade::component('input', Input::class);
+        Blade::component('section-border', SectionBorder::class);
     }
 }
